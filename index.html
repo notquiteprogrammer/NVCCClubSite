@@ -1,0 +1,166 @@
+<!--
+TO DO:
+     - change second section's colors
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NOVA Club</title>
+    </head>
+    <body>
+        <main>
+            <nav class="navbar navbar-expand-md navbar-dark bg-novagreen"> <!-- navigation -->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">NOVA Club</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler"> <!-- navbar contents -->
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown"> <!-- dropdown contents -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item disabled text-novagreen-important" href="#">Upcoming Events</a></li>
+                                <li><a class="dropdown-item" href="feature.html">Feature 1</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item disabled text-novagold-important" href="#">Previous Events</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 3</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="background-1">
+                <div class="d-xl-none">
+                    <img class="img-fluid" src="splash.jpg" alt="picture of hawk">
+                    <h1 class="text-center fw-bold py-4 bg-novagreen" id="siteheader">NOVA CLUB</h1>
+                </div>
+                <div class="d-none d-xl-block spacer">
+                    <h1 class="text-center text-white fw-bold" id="siteheader">NOVA CLUB</h1>
+                </div>
+                <div class="container-sm pb-4 pt-4 pt-xl-0"> <!-- top part -->
+                    <div class="p-5 mb-4 bg-novagold rounded-3"> <!-- main jumbotron -->
+                        <div class="row container-fluid py-4">
+                            <div class="col md-8">
+                                <h1>Hello World</h1>
+                                <p class="fs-4 mb-3">
+                                    Your club is awesome. Tell us why here!
+                                </p>
+                                <p class="fs-5 mb-3">
+                                    You could also tell us here. If you have a featured project, or some special hook,
+                                    this is the perfect place to talk about it. Keep in mind that this is the front page -
+                                    the first thing people see when they view this site! Get excited.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid" src="hawk.jpg" alt="image of hawk">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-md-stretch"> <!-- bottom jumbotrons -->
+                        <div class="col-md-6">
+                        <div class="h-100 p-5 text-white bg-novabluegray rounded-3">
+                            <h2>Event Showcase</h2>
+                            <p>
+                                Announce an upcoming event here, or talk about an event which just happened!
+                            </p>
+                            <button class="btn btn-outline-light" type="button">Example button</button>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="h-100 p-5 bg-light border rounded-3">
+                            <h2 >Second Feature</h2>
+                            <p>
+                                Talk about something exciting. Maybe it's a club member's project, maybe it's an interview or a link to an article.
+                                Whatever it is, it's worth putting on the front page.
+                            </p>
+                            <button class="btn btn-outline-secondary" type="button">Example button</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer background-goldgrad"></div>
+            <div class="background-gold">
+                <div id="background-2">
+                    <div class="spacer">
+                    </div>
+                    <div class="container-sm pt-4 pb-5"> <!-- bottom part -->
+                        <div class="px-4 py-3 my-5 bg-white text-center border rounded-3"> <!-- featurette -->
+                                <div class="row featurette">
+                                    <div class="col-md-7">
+                                        <h2 class="featurette-heading">Something here. <span class="text-muted">Just in case.</span></h2>
+                                        <p>
+                                            Use this message to talk about just about anything.
+                                            You're more creative than me, so yeah!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="row align-items-md-stretch"> <!-- jumbotrons -->
+                            <div class="col-md-6">
+                            <div class="h-100 p-5 text-white bg-novabluegray rounded-3">
+                                <h2>More Info</h2>
+                                <p>
+                                    For more information, see our "About" page!
+                                </p>
+                                <button class="btn btn-outline-light disabled" type="button">About Us</button>
+                            </div>
+                            </div>
+                            <div class="col-md-6">
+                            <div class="h-100 p-5 bg-light border rounded-3">
+                                <h2>Contact Us</h2>
+                                <p>
+                                    Want to talk (in-person or online)? <br>
+                                    See our "Contact Us" page!
+                                </p>
+                                <button class="btn btn-outline-secondary disabled" type="button">Example button</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="container">
+            <footer class="py-2 my-2">
+                <ul class="nav justify-content-center border-bottom pb-2 mb-3">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+                  <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+                  <li class="nav-item"><a href="feature.html" class="nav-link px-2 text-muted">Events</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2021 NOVA Club</p>
+            </footer>
+        </div>
+        <div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html> 

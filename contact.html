@@ -1,0 +1,177 @@
+<!--
+TO DO:
+     - get contact form JS working
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us | NOVA Club</title>
+    </head>
+    <body>
+        <main>
+            <nav class="navbar navbar-expand-md navbar-dark bg-novagreen"> <!-- navigation -->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">NOVA Club</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler"> <!-- navbar contents -->
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown"> <!-- dropdown contents -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item disabled text-novagreen-important" href="#">Upcoming Events</a></li>
+                                <li><a class="dropdown-item" href="feature.html">Feature 1</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item disabled text-novagold-important" href="#">Previous Events</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 3</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="container-fluid px-4 py-4"> <!-- contact alert -->
+                    <div class="alert alert-primary" role="alert">
+                        Want to contact a club officer? See the about page!
+                      </div>
+                </div>
+                <div class="container-fluid px-5">
+                    <div class="container-fluid px-5 py-4 bg-light border rounded-3"> <!-- in-person contacts-->
+                        <div class="row my-3">
+                            <div class="col-12 col-md text-center text-md-start">
+                                <h2>In-Person</h2>
+                            </div>
+                            <div class="col-6 col-md text-center">
+                                <h5>Meetings</h5>
+                                <p>Meeting Room: XY987</p>
+                                <p>Meeting Time: 13:00ZM</p>
+                            </div>
+                            <div class="col-6 col-md text-center">
+                                <h5>Advisor Office</h5>
+                                <p>Building: XY123</p>
+                                <p>Office Hours: 13:00ZM Andays</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid px-5 py-5"> <!-- online contacts -->
+                        <div class="row">
+                            <div class="col-12 col-md py-3 py-md-0 text-center text-md-start">
+                                <h2>Online</h2>
+                            </div>
+                            <div class="col-6 col-md text-center">
+                                <h5>Social Media</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li><a class="link-secondary" href="#">Instagram</a></li>
+                                    <li><a class="link-secondary" href="#">Discord</a></li>
+                                    <li><a class="link-secondary" href="#">Facebook</a></li>
+                                    <li><a class="link-secondary" href="#">Youtube</a></li>
+                                    <li><a class="link-secondary" href="#">Snapchat</a></li>
+                                    <li><a class="link-secondary" href="#">Email</a></li>                                
+                                </ul>
+                            </div>
+                            <!-- <div class="col-6 col-md">
+                                <h5>Officer Information</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li><a class="link-secondary" href="#">Faculty Advisor</a></li>
+                                    <li><a class="link-secondary" href="#">President</a></li>
+                                    <li><a class="link-secondary" href="#">Vice President</a></li>
+                                    <li><a class="link-secondary" href="#">Secretary</a></li>
+                                    <li><a class="link-secondary" href="#">Treasurer</a></li>
+                                </ul>
+                            </div> -->
+                            <div class="col-6 col-md text-center">
+                                <h5>Other Resources</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li><a class="link-secondary" href="#">National Branch</a></li>
+                                    <li><a class="link-secondary" href="#">Professional Society</a></li>
+                                    <li><a class="link-secondary" href="#">Affiliated Group</a></li>
+                                    <li><a class="link-secondary" href="#">Other Link</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-5 py-3 bg-light border rounded-3"> <!-- contact form -->
+                    <div class="border-bottom py-2">
+                        <h2 class="text-center">Contact Us!</h2>
+                    </div>
+                    <div class="pt-2">
+                        <form>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="mb-3 px-4 col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                                        <label for="emailForm" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="emailFormEmail" aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="mb-3 px-4 col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                                        <label for="emailForm" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="emailFormName"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="mb-3 px-4 col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                                        <label for="emailForm" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" id="emailFormSubject"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="mb-3 px-4 col-12 col-lg-10 col-xl-9">
+                                        <label for="emailForm" class="form-label">Message</label>
+                                        <textarea class="form-control" id="emailFormMessage" rows="7"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="mb-3 px-4 col-12 col-lg-10 col-xl-9 text-right">
+                                        <div class="d-grid d-sm-block">
+                                            <button type="button" class="btn btn-primary mb-3 text-center disabled">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>  
+                </div>
+            </div>
+        </main>
+        <div class="container">
+            <footer class="py-2 my-2">
+                <ul class="nav justify-content-center border-bottom pb-2 mb-3">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+                  <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+                  <li class="nav-item"><a href="feature.html" class="nav-link px-2 text-muted">Events</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2021 NOVA Club</p>
+            </footer>
+        </div>
+        <div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html> 

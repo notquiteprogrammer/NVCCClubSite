@@ -1,0 +1,89 @@
+.bg-novagreen {
+    background-color: #046A38;
+    color: white;
+}
+
+.bg-novagold {
+    background-color: #C99700;
+    color: black;
+}
+
+.bg-novabluegray {
+    background-color: #4f758b;
+    color: white;
+}
+
+.text-novagreen-important {
+    color: #046A38 !important;
+}
+
+.text-novagold-important {
+    color: #C99700 !important;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+.big-background {
+    position: fixed;
+    z-index: -1;
+
+}
+
+.spacer {
+    padding: 10rem 0;
+}
+
+#background-1 {
+    background-image: url("splash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+
+}
+
+@media screen and (max-width: 1199.98px) {
+
+    #background-1 {
+        background-image: none;    
+    }
+
+}
+
+
+
+#background-2 {
+    background-image: url("butterfly.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+
+}
+
+#background-3 {
+    background-image: url("tree.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+
+}
+
+.background-goldgrad {
+    background-image: linear-gradient(white, #C99700);
+}
+
+.background-gold {
+    background-color: #C99700;
+}
+
+#siteheader {
+    font-size: 6rem;
+}

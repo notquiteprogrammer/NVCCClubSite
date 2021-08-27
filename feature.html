@@ -1,0 +1,116 @@
+<!--
+TO DO:
+     - Change image from normal to "featured project"
+     - Fix mobile viewing issues ("contact me" page)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Event | NOVA Club</title>
+    </head>
+    <body>
+        <main>
+            <nav class="navbar navbar-expand-md navbar-dark bg-novagreen"> <!-- navigation -->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">NOVA Club</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler"> <!-- navbar contents -->
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown"> <!-- dropdown contents -->
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item disabled text-novagreen-important" href="#">Upcoming Events</a></li>
+                                <li><a class="dropdown-item active" aria-current="page" href="feature.html">Feature 1</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item disabled text-novagold-important" href="#">Previous Events</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 3</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Feature 4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-sm pt-4"> <!-- page contents -->
+                <div class="p-5 mb-4 bg-novagold rounded-3"> <!-- main jumbotron -->
+                    <div class="row container-fluid py-4">
+                        <div class="col md-8">
+                            <h1>This Project</h1>
+                            <p class="fs-4 mb-3">
+                                You did this cool project.
+                            </p>
+                            <p class="fs-5 mb-3">
+                                Tell us more; get us interested. What did you do? How did you do it?
+                                Maybe also talk about the time and place where it happened,
+                                and the people involved.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="hawk.jpg" alt="image of hawk">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-md-stretch"> <!-- bottom jumbotrons -->
+                    <div class="col-md-6">
+                      <div class="h-100 p-5 text-white bg-novabluegray rounded-3">
+                        <h2>Get Involved</h2>
+                        <p>
+                            Want to get involved in this event? Contact us on our "Contact Us" page,
+                            or fill out this Google Forms here!
+                        </p>
+                        <a class="btn btn-outline-light" href="contact.html" role="button">Contact Us</a>
+                        
+                        <a class="btn btn-outline-info disabled" href="#" role="button">Google Forms</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Extra Box</h2>
+                        <p>
+                            More information? Do it here! Maybe put some relevant background info,
+                            or replace this entire box with an image carousel. It's up to you.
+                        </p>
+                        <button class="btn btn-outline-secondary" type="button">Example button</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </main>
+        <div class="container">
+            <footer class="py-2 my-2">
+                <ul class="nav justify-content-center border-bottom pb-2 mb-3">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+                  <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+                  <li class="nav-item"><a href="feature.html" class="nav-link px-2 text-muted">Events</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2021 NOVA Club</p>
+            </footer>
+        </div>
+        <div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html> 
